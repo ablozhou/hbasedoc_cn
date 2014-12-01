@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preface version="5.0" xml:id="preface" xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:svg="http://www.w3.org/2000/svg"
+         xmlns:m="http://www.w3.org/1998/Math/MathML"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:db="http://docbook.org/ns/docbook">
+<!--
+/**
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * 
+ * 翻译 颜开 周海汉 2013.1.7
+ * 校对 周海汉
+ */
+-->
+  <title>前言</title>
+<para>这本书是 <link xlink:href="http://hbase.apache.org/">HBase</link> 的官方指南。
+  版本为  <emphasis><?eval ${project.version}?></emphasis>。可以在HBase官网上找到它。也可以在 <link xlink:href="http://hbase.apache.org/docs/current/api/index">javadoc</link>,
+  <link xlink:href="https://issues.apache.org/jira/browse/HBASE">JIRA</link>
+和 <link xlink:href="http://wiki.apache.org/hadoop/HBase">wiki</link> 找到更多的资料。</para><para>此书正在编辑中。 可以向 HBase 官方提供补丁<link xlink:href="https://issues.apache.org/jira/browse/HBASE">JIRA</link>.</para>
+
+  <note xml:id="headsup">
+      <title>注意</title>
+      <para> 若这是你第一次踏入分布式计算的精彩世界，那么你将度过许多有意思的时光。首先，分布式系统是很难的，做一个分布式系统需要很多软硬件和网络的技能。你的集群可以会因为各式各样的错误发生故障。从HBase本身的Bug,到错误的配置——HBase本身的错误配置和操作系统的错误配置——到硬件的故障(网卡和磁盘甚至内存)。          如果你一直在写单机程序的话，你需要重新开始学习。这里就是一个好的起点:
+<link xlink:href="http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing">分布式计算的谬论</link>.
+      </para>
+  </note>
+</preface>
