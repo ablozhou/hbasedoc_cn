@@ -2293,7 +2293,7 @@ index e70ebc6..96f8c27 100644
                           </h2></div>
                         </div>
                       </div>
-                      <p> 在HBase是<span class="emphasis"><em>列族</em></span>一些列的集合。一个列族所有列成员是有着相同的前缀。比如，列<span class="emphasis"><em>courses:history</em></span> 和 <span class="emphasis"><em>courses:math</em></span>都是 列族 <span class="emphasis"><em>courses</em></span>的成员.冒号(:)是列族的分隔符，用来区分前缀和列名。column 前缀必须是可打印的字符，剩下的部分(称为qualify),可以又任意字节数组组成。列族必须在表建立的时候声明。column就不需要了，随时可以新建。 </p>
+                      <p> 在HBase是<span class="emphasis"><em>列族</em></span>一些列的集合。一个列族所有列成员是有着相同的前缀。比如，列<span class="emphasis"><em>courses:history</em></span> 和 <span class="emphasis"><em>courses:math</em></span>都是 列族 <span class="emphasis"><em>courses</em></span>的成员.冒号(:)是列族的分隔符，用来区分前缀和列名。column 前缀必须是可打印的字符，剩下的部分(称为qualify),可以由任意字节数组组成。列族必须在表建立的时候声明。column就不需要了，随时可以新建。 </p>
                       <p>在物理上，一个的列族成员在文件系统上都是存储在一起。因为存储优化都是针对列族级别的，这就意味着，一个colimn family的所有成员的是用相同的方式访问的。</p>
                       <p></p>
                     </div>
